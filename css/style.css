@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	background: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*link, button, word*/
+.text-primary, .current {
+	color: #FF8B00;
+}
+
+.lead {
+	font-size: 20px;
+	margin-bottom: 3rem;
+}
+
+.btn {
+	padding: 5px 20px;
+	background: rgba(0, 0, 0, .2);
+	border: 2px solid #fff;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #333;
+	transition: 1s;
+}
+
+
+/*navbar*/
+#navbar {
+	background: #222222;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 7rem;
+	opacity: .8
+
+}
+
+#navbar ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+}
+
+#navbar ul li a{
+	padding: 20px;
+}
+
+/*showcase*/
+#showcase {
+	background: url('../img/01.jpg') no-repeat center center/cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+
+}
+
+#showcase .showcase-content  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+	margin-bottom: 1.5rem;
+	line-height: 2em;
+	z-index: 1;
+	color: #fff;
+	padding: 1rem;
+}
+
+#showcase .showcase-content h1 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
